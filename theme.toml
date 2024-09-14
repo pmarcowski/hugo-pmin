@@ -1,13 +1,13 @@
-name = "XMin"
+name = "PMin"
 license = "MIT"
-licenselink = "https://github.com/yihui/hugo-xmin/blob/master/LICENSE.md"
-description = "eXtremely Minimal Hugo theme: about 150 lines of code in total, including HTML and CSS"
-homepage = "https://xmin.yihui.org"
-demosite = "https://xmin.yihui.org"
+licenselink = "https://github.com/pmarcowski/hugo-pmin/blob/master/LICENSE.md"
+description = "Minimal Hugo theme. Based off eXtremely minimal (Xmin) theme by Yihui Xui."
+homepage = "https://przemyslawmarcowski.com/blog/"
+demosite = "https://przemyslawmarcowski.com/blog/"
 tags = ["minimal", "blog", "personal", "clean", "simple", "starter", "minimalist"]
 features = ["blog"]
-min_version = "0.18"
+min_version = "0.01"
 
 [author]
-  name = "Yihui Xie"
-  homepage = "https://yihui.org"
+  name = "Przemyslaw Marcowski"
+  homepage = "https://przemyslawmarcowski.com/"

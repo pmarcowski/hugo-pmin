@@ -1,51 +1,123 @@
+/* General Styles */
 body {
   max-width: 800px;
   margin: auto;
   padding: 1em;
   line-height: 1.5;
+  color: #24292e;
 }
 
-/* header and footer areas */
-.menu { padding: 0; }
-.menu li { display: inline-block; }
-.article-meta, .menu a {
+/* Links */
+a {
+  color: #0366d6;
   text-decoration: none;
-  background: #eee;
+}
+
+a:hover {
+  color: #035cc1;
+  text-decoration: underline;
+}
+
+/* Navigation and Copy Button */
+.menu a, .copy-button {
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: #24292e;
+}
+
+.menu a:hover, .copy-button:hover {
+  background-color: #f6f8fa;
+  color: #0366d6;
+  text-decoration: none;
+}
+
+/* Content Backgrounds */
+.article-meta, blockquote, thead, tfoot, tr:nth-child(even) {
+  background: #f6f8fa;
+}
+
+/* Article Meta */
+.article-meta {
   padding: 5px;
   border-radius: 5px;
 }
-.menu, .article-meta, footer { text-align: center; }
-.title { font-size: 1.1em; }
-footer a { text-decoration: none; }
-hr {
-  border-style: dashed;
-  color: #ddd;
+
+/* Layout */
+.menu, .article-meta, footer {
+  text-align: center;
 }
 
-/* code */
+.menu li {
+  display: inline-block;
+}
+
+/* Typography */
+.title {
+  font-size: 1.1em;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+hr {
+  border-style: solid;
+  color: #e1e4e8;
+}
+
+/* Code Blocks */
 pre {
-  border: 1px solid #ddd;
-  box-shadow: 5px 5px 5px #eee;
+  position: relative;
+  border: 1px solid #e1e4e8;
   padding: 1em;
   overflow-x: auto;
 }
-code { background: #f9f9f9; }
-pre code { background: none; }
 
-/* misc elements */
-img, iframe, video { max-width: 100%; }
-main { hyphens: auto; }
+code {
+  background: #f6f8fa;
+}
+
+pre code {
+  background: none;
+}
+
+.copy-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.8em;
+}
+
+/* Media */
+img, iframe, video {
+  max-width: 100%;
+}
+
+/* Text Hyphenation */
+main {
+  hyphens: auto;
+}
+
+/* Blockquotes */
 blockquote {
-  background: #f9f9f9;
-  border-left: 5px solid #ccc;
+  border-left: 5px solid #e1e4e8;
   padding: 3px 1em 3px;
 }
 
+/* Tables */
 table {
   margin: auto;
-  border-top: 1px solid #666;
-  border-bottom: 1px solid #666;
+  border-top: 1px solid #e1e4e8;
+  border-bottom: 1px solid #e1e4e8;
 }
-table thead th { border-bottom: 1px solid #ddd; }
-th, td { padding: 5px; }
-thead, tfoot, tr:nth-child(even) { background: #eee; }
+
+table thead th {
+  border-bottom: 1px solid #e1e4e8;
+}
+
+th, td {
+  padding: 5px;
+}
