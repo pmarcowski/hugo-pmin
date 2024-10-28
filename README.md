@@ -21,6 +21,6 @@ find . -not -path '*/exampleSite/*' \( -name '*.html' -o -name '*.css' \) | xarg
      201 total
 ```
 
-Despite its minimalism, **PMin** is fully functional. It supports pages (including the home page), blog posts, navigation menus, categories, tags, and RSS. With minor customization, it can incorporate **LaTeX math expressions** and **syntax highlighting** with a copy button. See [About](about/) for more details.
+Despite its minimalism, **PMin** is fully functional. It supports pages (including the home page), blog posts, navigation menus, categories, tags, and RSS. With minor customization, it can incorporate **LaTeX math expressions** and **syntax highlighting** with a copy button.
 
 ![Preview](images/preview.png)
